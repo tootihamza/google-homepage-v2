@@ -1,1 +1,1 @@
-# google-homepage-v2
+This is a second attempt to create the famous google page from a scratch.
