@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#imageLogo {
+    grid-area: header;
+}
+
+#searchInput {
+    grid-area: main;
+}
+
+.buttons-search {
+    grid-area: footer;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". header header."
+    ". main main ."
+    ". footer footer ."
+}
+
